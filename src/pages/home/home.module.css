@@ -1,0 +1,17 @@
+.main {
+  width: 100%;
+  max-width: 64rem;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.main h1 {
+  font-weight: bold;
+  font-size: 2.25rem;
+}
+/* @apply my-4 py-4 flex flex-col justify-center items-center gap-4 w-full max-w-5xl border-2 border-black; */

@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Adjust this based on your layout needs */
+  align-items: center;
+  gap: 1rem;
+
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: fit-content;
+  text-wrap: nowrap;
+  display: block;
+}
+
+@media (max-width: 580px) {
+  .logo {
+    display: none;
+  }
+}
+
+.navLink {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.link {
+  font-size: 1rem;
+  font-weight: 600;
+  text-wrap: nowrap;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.active {
+  font-weight: 900;
+  font-size: 1rem;
+  text-decoration: underline;
+}

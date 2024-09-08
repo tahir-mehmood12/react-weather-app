@@ -1,0 +1,48 @@
+.heading {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  padding: 0 1rem;
+}
+
+.weatherList {
+  width: 100%;
+  max-width: 28rem; /* equivalent to max-w-md */
+}
+
+.weatherItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e2e8f0; /* light border similar to Tailwind */
+  padding: 0.5rem; /* equivalent to p-2 */
+}
+
+.weatherInfo {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* equivalent to gap-4 */
+}
+
+.weatherIcon {
+  width: 3rem; /* equivalent to w-12 */
+  height: 3rem; /* equivalent to h-12 */
+}
+
+.cityName {
+  font-weight: 500;
+}
+
+.cityDescription {
+  font-size: 0.875rem; /* equivalent to text-sm */
+}
+
+.removeButton {
+  color: #ef4444; /* equivalent to text-red-500 */
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.removeButton:hover {
+  color: #dc2626; /* equivalent to text-red-700 */
+}
